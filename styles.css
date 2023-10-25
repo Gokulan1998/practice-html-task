@@ -1,0 +1,24 @@
+.cart-icon{
+    background-color: orange;
+    flex: 1;
+}
+.nav-bar{
+    display: flex;
+    /* fill-rule: auto; */
+    /* justify-content: space-between; */
+}
+.links{
+    flex: 2;
+   display: flex; 
+   /* justify-content: space-evenly; */
+   /* background-color: blue; */
+}
+.logoh{
+    flex: 1;
+}
+.design{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
