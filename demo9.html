@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willware Traders</title>
+    <style>
+        .bill-top {
+            text-align: center;
+        }
+
+        .bill-top>h1 {
+            margin: 0px;
+        }
+
+        .bill-top>h3 {
+            margin: 0px !important;
+            padding: 0px;
+
+        }
+        hr {
+            border-style: dashed;
+        }
+
+        .center>p {
+            font: size 25px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .center-billno>p {
+            text-align: right;
+            padding: 0px;
+        }
+
+        .center-billno>h2 {
+            font-size: medium;
+            padding: 0px;
+        }
+
+        .center-billno {
+            display: flex;
+            flex-direction: column;
+        } 
+
+        .bill-data {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .bill-staff {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .bill-data>h2 {
+            font-size: medium;
+            margin: 0px;
+        }
+
+        .bill-staff>h2 {
+            font-size: medium;
+            margin: 0px;
+        }
+
+        .bill-data>p {
+            margin: 0px;
+        }
+
+        .bill-staff>p {
+            margin: 0px;
+        }
+
+        .bill-top>h4 {
+            margin: 0px;
+        }
+
+        .bill-top>h5 {
+            margin: 0px;
+        }
+        table {
+            width:100%;
+        }
+        tr{
+            padding: 12px;
+            text-align: center;
+            }
+        .bill-total {
+            text-align: right;
+        }
+        .payment-status>h3 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .payment-type>h3 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .payment-type>p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .thank-you>h3 {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bill-top">
+        <h1>Willware Traders</h1>
+        <h3>Kaviya Super Market</h3>
+        <h3>Periyar Nagar</h3>
+        <h3>Vridachalam-606001</h3>
+        <h4>Cell:9751141336,9751141335</h4>
+        <h4>Phone:04143-290056</h4>
+        <h5>GST NO:33ATKPK8153F1ZR</h5>
+        <hr>
+    </div>
+    <div class="center">
+        <p>Name:Gopi</p>
+        <p>Address:VDM</p>
+        <p>Phone no:9986024868</p>
+        <p>Points:865.47</p>
+        <hr>
+    </div>
+    <div class="center-billno">
+        <div class="bill-data" id="error">
+            <p><span style="font-weight: lighter;">Bill no:SRT22/67621</span></p>
+            <p>Date:17.10.2023</p>
+        </div>
+        <div class="bill-staff">
+            <p id="view">USER:STAFF</p>
+            <p>Time:5:12PM</p>
+        </div>
+        <div>
+            <hr>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr id="row1">
+                <th>MRP</th>
+                <th>HSN</th>
+                <th>quantity</th>
+                <th>price</th>
+                <th>GST%</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row2">
+                <td>235</td>
+                <td>NONE</td>
+                <td>1</td>
+                <td>230</td>
+                <td>0</td>
+                <td>230</td>
+            </tr>
+            <tr id="row3">
+                <td>200</td>
+                <td>NONE</td>
+                <td>1</td>
+                <td>190</td>
+                <td>0</td>
+                <td>190</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <div class="bill-amount">
+        <h2 id="quantity">Total quantity:2</h2>
+    </div>
+    <hr>
+    <div class="bill-total">
+        <h2>Total:Rs.420</h2>
+    </div>
+    <hr>
+    <div class="payment-type">
+        <h3>PAYMENT TYPE:</h3>
+        
+        <p>Amazon Pay:Rs.420</p>
+    </div>
+    <hr>
+    <div class="payment-status">
+    <h3><span style="font-weight: normal;">Received Amount:Rs.0</span></h3>
+    <h3><span style="font-weight: normal;">Refunded Amount:Rs.0</span></h3>
+    <h3>Today's savings:Rs.5</h3>
+    </div>
+    <div class="thank-you">
+        <h3>Thank you visit again</h3>
+    </div>
+</body>
+<script src="./demo10.js"></script>
+</html>    

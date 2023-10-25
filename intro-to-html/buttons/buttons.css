@@ -1,0 +1,36 @@
+.subscribe-button {
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border: none;
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.join-button {
+    background-color: rgb(255, 255, 255);
+    border-color: blue;
+    color: rgb(56, 47, 189);
+    border-style: solid;
+    border-width: 1px;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    transition: background-color 0.15s,color 0.15s;
+    vertical-align: top;
+}
+.join-button:hover {
+    background-color: blue;
+    color: white;
+}
