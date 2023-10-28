@@ -1,0 +1,122 @@
+.bill-top {
+    text-align: center;
+}
+
+.bill-top>h1 {
+    margin: 0px;
+}
+
+.bill-top>h3 {
+    margin: 0px !important;
+    padding: 0px;
+
+}
+hr {
+    border-style: dashed;
+}
+
+.center>p {
+    font: size 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.center-billno>p {
+    text-align: right;
+    padding: 0px;
+}
+
+.center-billno>h2 {
+    font-size: medium;
+    padding: 0px;
+}
+
+.center-billno {
+    display: flex;
+    flex-direction: column;
+} 
+
+.bill-data {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bill-staff {
+    display: flex;
+    justify-content: space-between;
+
+}
+.bill-data>h2 {
+    font-size: medium;
+    margin: 0px;
+}
+
+.bill-staff>h2 {
+    font-size: medium;
+    margin: 0px;
+}
+
+.bill-data>p {
+    margin: 0px;
+}
+
+.bill-staff>p {
+    margin: 0px;
+}
+
+.bill-top>h4 {
+    margin: 0px;
+}
+
+.bill-top>h5 {
+    margin: 0px;
+}
+table {
+    width:100%;
+}
+tr{
+    padding: 12px;
+    text-align: center;
+    }
+.bill-total {
+    text-align: right;
+}
+.payment-status>h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.payment-type>h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.payment-type>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.thank-you>h3 {
+    text-align: center;
+}
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    float: right;
+    top: 15px; 
+}
+.cart{
+    font-size: 16px;
+    background-color: blue;
+    
+}
+.cartamt{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 15px;
+    background-color: red;
+}
+.cart-table{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
