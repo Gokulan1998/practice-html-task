@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willware Traders</title>
     <link rel="stylesheet" href="shoppingstyle/shoppingstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
     <div class="navbar">
-        <div class="shoppingcart">
+        <div class="shoppingCart">
             <div class="cart">
                 <i class="fa fa-shopping-cart" style="font-size:36px"></i>
-                <div class="cartamt" id="cartamt">0</div>
+                <div class="cartAmount" id="cartAmount">0</div>
             </div>
         </div>
     </div>
@@ -34,7 +36,7 @@
         <p>Points:865.47</p>
         <hr>
     </div>
-    
+
     <div class="center-billno">
         <div class="bill-data" id="error">
             <p><span style="font-weight: lighter;">Bill no:SRT22/67621</span></p>
@@ -48,14 +50,15 @@
             <hr>
         </div>
     </div>
-    <div id="price-table"></div>
-    <div id="cart-table"></div>
-    <div >  
-        <!-- <i class="fa fa-plus" style="font-size:36px"></i> -->
-    <!-- <button onclick="increment(1209)">click me</button> -->
-    <div> 
-    </div> 
+    
+    <div id="cart-table" class="cart-table">
+        
+        <div class="shopping-bill" id="shopping-bill">
+            <script src="cart.js"></script>
+        </div>
+    </div>
+    
 </body>
-<script src="src/cart.js"></script>
+
 <!-- <script src="cart1.js"></script> -->
 </html>

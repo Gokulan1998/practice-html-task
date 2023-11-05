@@ -44,7 +44,7 @@ let generateshop = () => {
             <h2>$${x.price}</h2>
             <div class="buttons">
                 <i onclick="decrement(${id})" class="bi bi-dash-lg"></i>
-                <div id=${id} class="quantity" id="piece-qty">
+                <div id=${id} class="quantity">
                 ${search.item === undefined ? 0 : search.item}
                 </div>
                 <i onclick="increment(${id})" class="bi bi-plus-lg"></i>
@@ -62,6 +62,8 @@ generateshop();
 let increment = (id) => {
     let selectedItem = id;
     let search = basket.find((x) => x.id === selectedItem.id);
+    console.log("search i",search);
+    console.log("selecteditem",selectedItem);
     if (search === undefined) {
         basket.push({
             id: selectedItem.id,
@@ -78,6 +80,7 @@ let increment = (id) => {
 let decrement = (id) => {
     let selectedItem = id;
     let search = basket.find((x) => x.id === selectedItem.id);
+    console.log("search d",search);
     if (search.item === undefined) return;
     else if(search.item===0) return;
     else {
@@ -86,8 +89,8 @@ let decrement = (id) => {
     // console.log(basket);
     
     // basket=basket.filter((x)=>x.item!==0);
-    update(selectedItem.id);
     localStorage.setItem("data", JSON.stringify(basket));
+    update(selectedItem.id);
 };
 let update = (id) => {
     let search = basket.find((x) => x.id === id);
